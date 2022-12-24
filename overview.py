@@ -77,7 +77,7 @@ def main(session, headers, main_page):
 
 
 if __name__ == '__main__':
-	mongo_client = MongoClient('mongodb+srv://dki_mongodb:386iPNuqq8njVbq3@cluster0.8krpn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+	mongo_client = MongoClient('')
 	mongo_db = mongo_client['CSGO']
 	mongo_collections = mongo_db['hltv_data']
 
